@@ -29,9 +29,14 @@ function main() {
  * Total lines in my code: 5
  * @param: list of items, separated by commas
  * @return: itemsArray
+ * 
  */
-
-
+function makeList(items){
+  let itemsArray = ["gallon milk","dozen eggs","link sausage","ounce cheese","stick butter"];
+ itemArray.push(items.split(","));
+console.log(itemArray)
+}
+return itemArray;
 /* 2. Function addPrices(shoppingList)
  * Create a 1D priceList array by SPLITTING a string called prices
  * Create a 2D array called pricesArray where you will store items and prices. 
@@ -45,7 +50,9 @@ function main() {
  * @param: shoppingList, prices
  * @return: pricesArray
  */
-
+function addPrices(shoppingList){
+   let priceList =[]
+}
 
 
 /* 3. Function calculateTotal(pricesArray)
@@ -61,4 +68,13 @@ function main() {
  * @param = pricesArray
  * @return = message
  */ 
+function calculateTotal(pricesArray){
+   total = 0;
+   message = prompt("Items to buy:\n");
+   for(let message = 1; message<messages; message ++);
+   price += parseFloat(total);
+   total.toFixed(2);
+   message += "Total=" + total;
 
+}
+return message;
