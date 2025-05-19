@@ -53,9 +53,9 @@ function makeList(items){
 function addPrices(shoppingList,prices){
    let priceList = prices.split(",");
    let  pricesArray = [];
-   for( let itemPrice = 1; itemPrice<shoppingList.leight; itemPrice++)
-      shoppingList.Push(itemPrice);
-      itemPrice.Push(pricesArray);
+   for( let itemPrice = 1; itemPrice<shoppingList.length; itemPrice++)
+      shoppingList.push(itemPrice);
+      itemPrice.push(pricesArray);
    console.log(pricesArray);
    return pricesArray;
 }
