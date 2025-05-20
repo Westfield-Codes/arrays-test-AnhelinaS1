@@ -53,8 +53,9 @@ function makeList(items){
 function addPrices(shoppingList,prices){
    let priceList = prices.split(",");
    let  pricesArray = [];
-   for( let itemPrice = 1; itemPrice<shoppingList.length; itemPrice++)
+   for( let item = 1; item<shoppingList.length; item++)
       shoppingList.push(itemPrice);
+      priceList.push(itemPrice);
       itemPrice.push(pricesArray);
    console.log(pricesArray);
    return pricesArray;
@@ -77,7 +78,12 @@ function addPrices(shoppingList,prices){
 function calculateTotal(pricesArray){
    total = 0;
    message = prompt("Items to buy:\n");
-   for(let message = 1; message<message; message ++);
+   for(let message = 1; message<message; message ++){
+      next = prompt("item" + item + ", $" + price\n);
+    
+  }
+   }
+   
    price += parseFloat(total);
    total.toFixed(2);
    message += "Total=" + total;
