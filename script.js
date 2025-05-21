@@ -33,7 +33,7 @@ function main() {
  */
 function makeList(items){
    let itemsArray =  items.split(",");
-   console.log(itemsArray);
+   console.log  = items.toString(itemsArray);
    return itemsArray;
 }
 
@@ -53,6 +53,7 @@ function makeList(items){
 function addPrices(shoppingList,prices){
    let priceList = prices.split(",");
    let  pricesArray = [];
+   
    for( let item = 1; item<shoppingList.length; item++)
       shoppingList.push(itemPrice);
       priceList.push(itemPrice);
@@ -79,11 +80,8 @@ function calculateTotal(pricesArray){
    total = 0;
    message = prompt("Items to buy:\n");
    for(let message = 1; message<message; message ++){
-      next = prompt("item" + item + ", $" + price\n);
-    
+      next = prompt("item" + item + ", $" + price + "\n");
   }
-   }
-   
    price += parseFloat(total);
    total.toFixed(2);
    message += "Total=" + total;
